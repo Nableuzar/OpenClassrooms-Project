@@ -651,6 +651,7 @@ h5 {
     #footer-menu {
         width: 100%;
         margin: 0 auto;
+        background-color: aqua;
 
     }
 
@@ -667,11 +668,16 @@ h5 {
     }
 
     /*NAV*/
-    nav ul {
+    nav {
         display: flex;
         width: 100%;
         padding: 0;
         text-align: center;
+    }
+    nav ul {
+        display: flex;
+        width: 100%;
+        
     }
 
     nav li {
@@ -685,11 +691,7 @@ h5 {
         border-bottom: 3px solid var(--primary-color);
         border-top: none;
     }
-
-    span {
-        display: none;
-    }
-
+   
     #search-bar button {
         height: 40px;
         width: 50px;
@@ -706,6 +708,9 @@ h5 {
         padding-top: 5px;
         color: white;
 
+    }
+    button span{
+        display: none;
     }
 
     #search-filters {
@@ -746,7 +751,7 @@ h5 {
         flex-wrap: wrap;
     }
 
-    .more-popular h3 i {
+    .more-popular> i {
         display: none;
     }
 
